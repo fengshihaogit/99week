@@ -17,8 +17,8 @@
 	<dependencies>
 	<!--工具包工程依赖  -->
 		<dependency>
-			<groupId>com.fsh</groupId>
-			<artifactId>Demoutils</artifactId>
+			<groupId>com.fengshihao</groupId>
+			<artifactId>fengshihao-common</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>

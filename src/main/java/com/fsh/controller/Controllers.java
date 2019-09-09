@@ -4,7 +4,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.fsh.Utils.StringUtils;
+import com.fengshihao.Utils.StringUtils;
+
 
 /**
  * @作者：Mr.冯
@@ -26,7 +27,7 @@ public class Controllers {
 		if(StringUtils.isBlank(str)){
 			//通过toHtml()工具方法将字符串转换成html文本
 //			，并向控制台输出处理结果，结果必须是经过处理后的html文本
-			String replaceStr = com.fsh.text.StringUtils.replaceStr(str);
+			String replaceStr = StringUtils.replaceStr(str);
 			System.out.println(replaceStr);
 			return 1;
 		}
